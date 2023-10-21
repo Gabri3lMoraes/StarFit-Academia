@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto';
+
+}
+
+body{
+    background-color: #151514;
+}
+
+#cor{
+    color: chocolate;
+}
+
+.logo{
+    font-size: 32px;
+}
+
+#topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 7%;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.buttonn{
+    margin-left: 4rem;
+    border: 2px solid #fff;
+    padding: 5px 5%;
+    color: #fff;
+    background-color: chocolate;
+    font-weight: 700;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.topicos{
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+    list-style: none;
+}
+
+.topicos:hover{
+    border-bottom: 2px solid #fff;
+    transition: 0.5s;
+}
+
+#image{
+    width: 100%;
+    height: 500px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-image: cover;
+}
+
+.img_1{
+    position: absolute;top: 40%;left: 24%;transform: translate(-50%, -50%);
+    width: 40%;
+    font-weight: 500;
+    padding: 50px 2%;
+    border: 2px solid chocolate;
+    border-radius: 15px;
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+.img_i{
+    width: 100%;
+    height: 100%;
+    font-weight: 500;
+    font-size: 32px;
+    padding: 5px 1%;
+}
+
+#img{
+    border: 2px solid ;
+    position: relative;
+}
+
+.contrat{
+    position: absolute;top: 75%;left: 24%;transform: translate(-50%, -50%);
+    width: 400px;
+    height: 60px;
+    color: #000;
+    font-size: 30px;
+    background-color: chocolate;
+    border: 0;
+    border-radius: 2px;
+}
+
+.topicos_treino{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 15%;
+    margin-top: 12rem;
+    gap: 2rem;
+}
+
+
+.butt{
+    width: 250px;height: 60px;
+    color: black;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: chocolate;
+    border: 2px solid black
+
+}
+.butt:hover{
+    background-color: #A85418;
+}
+
+#imm{
+    width: 150px;height: 150px;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.class1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.login-form{
+    width: 350px;height: 350px;
+    position: absolute;top: 0.1%;left: 72%;transform: translate(-50%,-50%);
+    background: #151514;
+    border: 2px solid rgba(255, 255, 255, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s ease;
+    overflow: hidden;
+    transform: scale(0);
+    
+}
+
+.login-form .iconclose{
+    position: absolute;top: 14%;left: 93%;transform: translate(-50%,-50%);
+    font-size: 25px;
+    background-color: #A85418;
+    cursor: pointer;
+    z-index: 1  ;
+}
+
+
+.login-form .form-box.login{
+    width: 100%;
+    padding: 40px;
+    transition: none;
+
+
+
+}
+
+.form-box h2{
+    font-size: 2em;
+    color: chocolate;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+}
+
+.input-box label{
+    position: absolute;top: -10px; left: 135px;transform: translate(-50%);
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    font-weight: 500;
+    pointer-events: none;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+}
+
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: chocolate;
+    line-height: 57px;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -35px;
+    transition: 0.5s;
+    font-size: 10px;
+}
+
+
+.remember{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.btn{
+    width: 150px;height: 35px;
+    margin-left: 53px;
+    margin-top: 10px;
+    background-color: #A85418;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.login-register{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-link{
+    color: #A85418;
+    text-decoration: underline;
+}
+
+.login-form .form-box.register{   
+    position: absolute; 
+    width: 100%; height: 400px;
+    transform: translateX(-400px);
+    padding: 4px 6%;
+    
+    
+}
+
+.input-box-register{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 2%;
+}
+
+.input-box-register input{
+    border: 0;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 1rem;
+
+}
+
+
+.input-box-register label{
+    display: flex;
+    justify-content: start;
+    position: absolute;top: 12%;left: 69%;transform: translate(-50%);
+    width: 100%;
+    height: 50px;
+    font-weight: 700;
+    pointer-events: none;
+    font-size: 15px;
+}
+
+.input-box-register input:focus~label,
+.input-box-register input:valid~label{
+    top: -3px;
+    transition: 0.5s;
+    font-size: 10px;
+}
+
+
+
+.color-regist{
+    color: chocolate;
+}
+
+.remember-register{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.btnn{
+    width: 150px;height: 35px;
+    background-color: #A85418;
+    border: none;
+    font-size: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+
+.passord-for{
+    text-decoration: underline;
+    color: chocolate;
+}
+
+.login-link{
+    color: chocolate;
+    text-decoration: underline;
+}
+
+
+.login-form.active{
+    height: 420px;
+    
+}
+
+.login-form.active .form-box.login{
+    transform: translateX(400px);
+    transition: none;
+    
+    
+}
+.login-form .form-box.login{
+    
+    transform: translateX(0);
+    transition: 0.5s ease;
+    
+}
+
+.login-form .form-box.register{
+    position: absolute;
+    transform: translateX(100);
+    
+    
+    
+}
+
+.login-form.active .form-box.register{
+   transform: translateX(0);
+   transition: 0.5s ease;
+   
+}
+
+.login-form.active-btts{
+    transform: scale(1);
+    transition: none;
+}
+
+.paragrafu{
+    width: 90%;
+    margin-bottom:1rem;
+    text-align: center;
+    margin-top: 4rem;
+    
+}
+
+.marca{
+    margin-top: 9rem;
+    color: chocolate;
+    text-align: center;
+    font-size: 28px;
+    
+}
+
+.topi{
+    font-size: 22px;
+    color: chocolate;
+}
+
+.beneficios{
+    
+    text-align: left;
+    align-self: flex-start;
+
+    
+}
+
+.bene{
+    margin-bottom: 1rem;
+}
+
+.start{
+    width: 100%;
+    background-color: chocolate;
+    border: none;
+    border: 1px solid #151514;
+    text-align: center;
+    padding: 10px;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 2s;
+    transform: translateX(-100%);
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0px);
+    transition: all 1s;
+    transform: translateX(0);
+}
+
+.topicos_treino :nth-child(5){
+    width: 100%;
+    text-align: center;
+}
+
+.login-form{
+    transition: none;
+}

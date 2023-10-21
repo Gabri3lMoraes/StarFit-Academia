@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Roboto';
+}
+body{
+    background-color: #151516;
+}
+
+.container{
+    padding: 131px 15%;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 10px 6%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+.message{
+    width: 100%;
+    background-color: #151514;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    transition: 0.5s;
+
+
+
+    
+}
+
+img{
+    opacity: 0.5;
+}
+
+.image{
+    width: 50px;
+}
+
+.direcao{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.messagesh{
+    background-color: transparent;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: monospace;
+   
+
+}
+
+#mass{
+    width: 90%;
+    position: absolute;
+    transform: translateX(2000px); left: 39px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+.box.show .message{
+    transform: translateX(4000px);
+}
+
+.box.show #mass{
+    transform: translate(0);
+}
+
+.butc{
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: center;
+} 
+
+#me{
+    rotate: 180deg;
+    margin-bottom: 6px;
+}
+
+
+.meuNovoBotao {
+    position: absolute; transform: translate(350px);
+    background-color: #151511;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+}
